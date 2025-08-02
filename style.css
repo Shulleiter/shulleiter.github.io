@@ -1,0 +1,34 @@
+/* Estilos del video de fondo */
+#video-fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Para que quede detrás de todo */
+}
+
+/* Animación del logo */
+@keyframes girar {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.logo-giratorio {
+    animation: girar 10s linear infinite;
+}
+
+/* Estilos de los botones de redes sociales */
+.barra-redes {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-redes {
+    /* Estilos para que sean circulares y con iconos */
+}
